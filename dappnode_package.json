@@ -8,12 +8,12 @@
   "author": "sponnet",
   "image": {
     "path": "prysm-gnosis-validator.avado.dnp.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/QmUVq7L3aJtWjgrSSJg11A85szM2kvMX9t8cQr2an2Gngp",
-    "size": 58222152
+    "hash": "/ipfs/QmWzm97WAEB8DXvjETRaWUnsHrWfc1HUgEi2sTimN1YJim",
+    "size": 44317432
   },
   "links": {
     "OnboardingWizard": "http://prysm-gnosis-validator.my.ava.do:81"
   },
   "license": "GLP-3.0",
-  "builddate": "2022-01-05T22:41:39.189Z"
+  "builddate": "2022-01-07T14:44:30.965Z"
 }
