@@ -1,6 +1,6 @@
 {
   "name": "prysm-gnosis-validator.avado.dnp.dappnode.eth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gnosis chain validator package allows you to validate blocks on the Gnosis beacon chain ",
   "title": "Gnosis chain validator",
   "autoupdate": true,
@@ -8,13 +8,15 @@
   "avatar": "/ipfs/QmVAqwNGshv5eNQTbS33XhB9vvBrEZFrNAWCD95vsJE2yh",
   "author": "sponnet",
   "image": {
-    "path": "prysm-gnosis-validator.avado.dnp.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/QmYPpn5nZQW29gRdoGtp4Ux4F39cMbFy8zFShouv5VVsad",
-    "size": 44309388
+    "volumes": [
+      "data:/data"
+    ],
+    "environment": [
+      "EXTRA_OPTS="
+    ]
   },
   "links": {
     "OnboardingWizard": "http://prysm-gnosis-validator.my.ava.do:81"
   },
-  "license": "GLP-3.0",
-  "builddate": "2022-01-07T15:41:40.972Z"
+  "license": "GLP-3.0"
 }
