@@ -4,4 +4,3 @@ GBC validator package
 
 See https://wiki.ava.do
 
-
