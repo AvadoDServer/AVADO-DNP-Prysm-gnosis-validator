@@ -1,6 +1,6 @@
 {
   "name": "prysm-gnosis-validator.avado.dnp.dappnode.eth",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gnosis chain validator package allows you to validate blocks on the Gnosis beacon chain ",
   "title": "Gnosis chain validator",
   "autoupdate": true,
@@ -11,6 +11,7 @@
     "volumes": [
       "data:/data"
     ],
+    "restart": "always",
     "environment": [
       "EXTRA_OPTS="
     ]
