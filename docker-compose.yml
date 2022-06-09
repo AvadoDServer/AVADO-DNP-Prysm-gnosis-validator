@@ -2,7 +2,7 @@ version: '3.4'
 services:
   prysm-gnosis-validator.avado.dnp.dappnode.eth:
     build: ./build
-    image: 'prysm-gnosis-validator.avado.dnp.dappnode.eth:0.0.3'
+    image: 'prysm-gnosis-validator.avado.dnp.dappnode.eth:0.0.4'
     restart: always
     volumes:
       - 'data:/data'
