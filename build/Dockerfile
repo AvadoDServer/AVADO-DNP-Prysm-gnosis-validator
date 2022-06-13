@@ -22,7 +22,7 @@ COPY --from=builder-nodejs /usr/src/wizard/build /usr/share/nginx/wizard
 COPY config/nginx.conf /etc/nginx
 
 # Get the binary from the image and configuration files
-COPY --from=ghcr.io/gnosischain/gbc-prysm-validator:v2.0.4-gbc /app/cmd/validator/validator.runfiles/prysm/cmd/validator/validator_/validator /usr/local/bin/validator
+COPY --from=ghcr.io/gnosischain/gbc-prysm-validator:v2.1.2-gbc /app/cmd/validator/validator.runfiles/prysm/cmd/validator/validator_/validator /usr/local/bin/validator
 
 # Copy entrypoint script
 COPY config/entrypoint.sh /usr/local/bin

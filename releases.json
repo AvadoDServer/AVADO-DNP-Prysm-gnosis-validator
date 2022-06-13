@@ -19,5 +19,12 @@
     "uploadedTo": {
       "http://80.208.229.228:5001": "Wed, 08 Jun 2022 14:37:05 GMT"
     }
+  },
+  "0.0.5": {
+    "hash": "/ipfs/QmeRUZNcjL9n94PeQHM4cD2P8s4adTC6UBfAZGHau6CUwY",
+    "type": "manifest",
+    "uploadedTo": {
+      "dappnode": "Mon, 13 Jun 2022 11:10:35 GMT"
+    }
   }
 }
