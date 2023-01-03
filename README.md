@@ -1,6 +1,3 @@
-# AVADO-DNP-Prysm-gnosis-validator
+Prysm is no longer supported for the Gnosis network.
 
-GBC validator package
-
-See https://wiki.ava.do
-
+https://docs.ava.do/packages/gnosis/
